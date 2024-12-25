@@ -27,4 +27,39 @@ let booleanIsLogIn = Boolean(islogIn)
 
 let somenum = 33
 let stringNum = String(somenum)
-console.log(typeof(stringNum));
+// console.log(typeof(stringNum));
+
+//  (operations) in string to numb. conversion
+
+let num = 3
+let negnum = -num
+// console.log(negnum);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2%2);
+// console.log(2/2);
+
+let str1 = "hii"
+let str2 = " coder"
+let str3 = str1+str2
+// console.log(str3);
+// it is basic code
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+(2+3));
+// console.log(1+2+"3");
+// dos not write this type of messy code
+
+// console.log(+true);
+// console.log(+"");   //ONLY FOR READ NOT FOR USE THIS CONVERSION
+
+let gamescore = 100
+// ++gamescore;     //prefix operator  //or
+gamescore++;        //postfix operator   
+console.log(gamescore); //output is 101
+// prefix or postfix study this program from mdn prefix or post fix search in google
+
